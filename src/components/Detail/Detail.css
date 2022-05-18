@@ -1,0 +1,51 @@
+.article {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: #ebebeb;
+}
+.article h2{
+    padding: 20px;
+    margin: 0px;
+    border-bottom: 2px solid gray;
+    font-family: sans-serif;
+}
+
+.author {
+    align-self: flex-start;
+    width: 30%;
+    margin: 0px;
+    padding: 10px;
+    font-family: cursive;
+    
+}
+
+.points {
+    margin: 0px;
+    padding: 10px;
+    border-top: 2px solid black;
+}
+
+.article a {
+    padding: 20px;
+    border-top: 2px solid blue;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: inherit;
+}
+
+.comments {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+}

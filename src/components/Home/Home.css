@@ -1,0 +1,41 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.spin {
+  border: 10px solid grey;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border-top: 10px solid red;
+  align-self: center;
+  margin: 40px;
+  animation: spinner 1s infinite;
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.result__parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.icon {
+  margin-left: 10rem;
+  align-self: center;
+  font-size: xx-large;
+  color: red;
+}
+
+.mid {
+  margin: auto;
+  margin-top: 5rem;
+}

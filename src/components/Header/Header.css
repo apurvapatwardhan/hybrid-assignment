@@ -1,0 +1,29 @@
+.header {
+  background: linear-gradient(to top, #000000, #837979);
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+}
+.header__left {
+  align-self: center;
+  font-size: x-large;
+  font-family: fantasy;
+  color: red;
+  cursor: pointer;
+}
+
+.header__left span {
+  display: inline-block;
+  background: white;
+  padding: 5px;
+}
+.header__form {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.header__form input {
+  padding: 6px;
+  margin-right: 10px;
+  width: 40%;
+}
